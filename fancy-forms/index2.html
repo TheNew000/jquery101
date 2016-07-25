@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Builder Clone</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <form class="signup-form">
+        <h1>New Users: Sign Up Now!<span>CareerBuilder Registration</span></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>I will be using CareerBuilder.com as:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" class="privacy"><label>a Job Seeker</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="privacy"><label>an Employer</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="privacy"><label>a Staffing Agency Representative</label></td>
+                </tr>
+            </tbody>
+        </table>
+        <span class="required">* Required field</span>
+    <div id="accountInfo">
+        <h2>Account Information</h2>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Your first name:<input type="text" class="firstName"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Your last name:<input type="text" class="lastName"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Email Address:<input type="email" class="email"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Confirm Email Address:<input type="email" class="emailConfirm"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Create Password:<input type="password" class="password"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Confirm Password:<input type="password" class="passwordConfirm"></label>
+        </div>
+    </div>
+    <div id="ContactInfo">
+        <h2>Contact Information</h2>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Phone:<input type="text" class="phone"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Address:<input type="text" class="address"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Address 2:<input type="text" class="address2"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Country:<input type="text" class="country"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>City:<input type="text" class="city"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>State:<input type="text" class="state"></label>
+        </div>
+        <div class="form-wrapper">
+            <span class="required">*</span><label>Zip:<input type="text" class="zip"></label>
+        </div>
+    </div>
+    </form>
+    <input type="submit" value="Register Now!" class="btn btn-success">
+</body>
+</html>

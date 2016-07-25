@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validating Forms</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <form class="signup-form">
+        <h1>Sign Up Now!<span>Sign up for the dev job of your dreams!</span></h1>
+
+        <div class="section">
+            <span>1</span>First Name & Address
+        </div>
+
+        <div class="form-wrapper">
+            <label>Your Full Name<input type="text" class="fullName" placeholder="Your Full Name"></label>
+        </div>
+        <div class="form-wrapper">
+            <label>Address<input type="text" class="address" placeholder="Your Address"></label>
+        </div>
+        <div class="section">
+            <span>2</span>Contact Info
+        </div>
+        <div class="form-wrapper">
+            <label>Email<input type="email" class="email" placeholder="Your Email"></label>
+        </div>
+        <div class="form-wrapper">
+            <label>Phone<input type="text" class="phone" placeholder="Your Phone Number"></label>
+        </div>
+        <div class="section">
+            <span>3</span>Password
+        </div>
+        <div class="form-wrapper">
+        <div class="error pass-error"></div>
+            <label>Password<input type="password" class="password" placeholder="Password must be at least 6 characters"></label>
+        </div>
+        <div class="form-wrapper">
+            <label>Password Confirmation<input type="password" class="password2" placeholder="Confirm Password"></label>
+        </div>
+        <div class="section">
+            <span>4</span>Skills
+        </div>
+        <div class="form-wrapper">
+            <label>My Tech Skills<input type="text" class="mySkills" placeholder="Enter your Skills"></label>
+        </div>
+        <div class="form-wrapper">
+            <label>Years of Experience<input type="number" class="years" placeholder="Years of Experience"></label>
+        </div>
+        <div class="form-wrapper">
+            <input type="submit" class="submit" value="Get me a job!">
+            <input type="checkbox" class="privacy">I agree to the terms and policies
+        </div>
+
+    </form>
+
+</body>
+</html>
